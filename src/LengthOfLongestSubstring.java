@@ -28,7 +28,7 @@ public class LengthOfLongestSubstring {
     }  
 
 	public static void main(String[] args) {
-		String str = "abbbbcdefghijklmn";
+		String str = "。，‘；*&%……*！";
 		System.out.println(lengthOfLongestSubstring(str));
 	}
 }

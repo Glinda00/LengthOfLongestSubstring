@@ -28,11 +28,7 @@ public class LengthOfLongestSubstring {
     }  
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		while (sc.hasNext()){
-			String str = sc.nextLine();
-			System.out.println(lengthOfLongestSubstring(str));
-		}
-		sc.close();
+		String str = null;
+		System.out.println(lengthOfLongestSubstring(str));
 	}
 }
